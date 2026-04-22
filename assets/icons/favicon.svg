@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B21B6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#grad)"/>
+  
+  <!-- Light bulb icon -->
+  <g fill="#FFFFFF">
+    <!-- Bulb -->
+    <path d="M50 20 C40 20, 32 28, 32 38 C32 45, 36 50, 40 55 L40 65 L60 65 L60 55 C64 50, 68 45, 68 38 C68 28, 60 20, 50 20 Z"/>
+    
+    <!-- Base -->
+    <rect x="42" y="65" width="16" height="4" rx="2"/>
+    <rect x="44" y="69" width="12" height="3" rx="1.5"/>
+    
+    <!-- Filament -->
+    <path d="M50 30 L50 45" stroke="#5B21B6" stroke-width="2" fill="none"/>
+    <circle cx="50" cy="28" r="2" fill="#F59E0B"/>
+  </g>
+  
+  <!-- i7 text -->
+  <text x="50" y="88" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">i7</text>
+</svg>
+
+<!-- Made with Bob -->

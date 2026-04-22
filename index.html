@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I7 Digital - Especialistas em Tráfego Pago, Tagueamento, Dados e Insights para impulsionar seu negócio online.">
+    <meta name="keywords" content="tráfego pago, Google Ads, Meta Ads, tagueamento, analytics, dados, insights, desenvolvimento web">
+    <meta name="author" content="I7 Digital">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="I7 Digital - Gestão de Tráfego Pago">
+    <meta property="og:description" content="Especialistas em Tráfego Pago, Tagueamento, Dados e Insights para pequenas empresas.">
+    <meta property="og:image" content="./assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="I7 Digital - Gestão de Tráfego Pago">
+    <meta property="twitter:description" content="Especialistas em Tráfego Pago, Tagueamento, Dados e Insights para pequenas empresas.">
+    
+    <title>I7 Digital - Gestão de Tráfego Pago | Google Ads & Meta Ads</title>
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <span class="nav__logo-text">i7 Digital</span>
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Início</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Serviços</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#testimonials" class="nav__link">Depoimentos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contato</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
+            </div>
+            
+            <div class="nav__actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <span class="hero__subtitle">Gestão de Tráfego Pago</span>
+                    <h1 class="hero__title">
+                        Transforme <span class="text-gradient">Cliques</span> em <span class="text-gradient">Clientes</span>
+                    </h1>
+                    <p class="hero__description">
+                        Especialistas em Google Ads, Meta Ads, Tagueamento e Análise de Dados. 
+                        Impulsionamos pequenas empresas com estratégias inteligentes de marketing digital.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#contact" class="btn btn--primary">
+                            Começar Agora
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#services" class="btn btn--secondary">Nossos Serviços</a>
+                    </div>
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <span class="stat__number">150+</span>
+                            <span class="stat__label">Clientes Ativos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">98%</span>
+                            <span class="stat__label">Satisfação</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">5M+</span>
+                            <span class="stat__label">Em Investimento</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <div class="hero__image-wrapper">
+                        <div class="hero__decoration hero__decoration--1"></div>
+                        <div class="hero__decoration hero__decoration--2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="about__container container">
+                <div class="section__header">
+                    <span class="section__subtitle">Sobre Nós</span>
+                    <h2 class="section__title">Quem Somos</h2>
+                    <p class="section__description">
+                        A I7 Digital nasceu da paixão por transformar dados em resultados reais para pequenas empresas.
+                    </p>
+                </div>
+                
+                <div class="about__content">
+                    <div class="about__image">
+                        <div class="about__image-placeholder"></div>
+                        <div class="about__badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Certificados Google & Meta</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about__info">
+                        <p class="about__text">
+                            Somos uma agência especializada em <strong>gestão de tráfego pago</strong>, 
+                            <strong>tagueamento avançado</strong> e <strong>análise de dados</strong>. 
+                            Nossa missão é democratizar o acesso a estratégias de marketing digital de alta performance 
+                            para pequenas e médias empresas.
+                        </p>
+                        <p class="about__text">
+                            Com uma equipe certificada e experiente, utilizamos as melhores práticas do mercado 
+                            para garantir que cada real investido gere o máximo retorno possível.
+                        </p>
+                        
+                        <ul class="about__features">
+                            <li class="about__feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>Certificações Google Ads e Meta Blueprint</span>
+                            </li>
+                            <li class="about__feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>Metodologia baseada em dados e testes A/B</span>
+                            </li>
+                            <li class="about__feature">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span>Suporte dedicado e relatórios transparentes</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="#contact" class="btn btn--primary">Fale Conosco</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="services__container container">
+                <div class="section__header">
+                    <span class="section__subtitle">Nossos Serviços</span>
+                    <h2 class="section__title">O Que Fazemos</h2>
+                    <p class="section__description">
+                        Soluções completas de marketing digital para alavancar seu negócio online.
+                    </p>
+                </div>
+                
+                <div class="services__grid">
+                    <!-- Service 1 -->
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Tráfego Pago Google</h3>
+                        <p class="service-card__description">
+                            Campanhas otimizadas no Google Ads (Search, Display, Shopping, YouTube) 
+                            com foco em conversão e ROI positivo.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Pesquisa de palavras-chave</li>
+                            <li>Criação de anúncios persuasivos</li>
+                            <li>Otimização de lances e orçamento</li>
+                            <li>Relatórios de performance</li>
+                        </ul>
+                    </article>
+                    
+                    <!-- Service 2 -->
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Tráfego Pago Meta</h3>
+                        <p class="service-card__description">
+                            Gestão completa de campanhas no Facebook e Instagram Ads, 
+                            segmentação avançada e criativos de alta conversão.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Segmentação de público-alvo</li>
+                            <li>Criação de criativos impactantes</li>
+                            <li>Testes A/B de anúncios</li>
+                            <li>Remarketing estratégico</li>
+                        </ul>
+                    </article>
+                    
+                    <!-- Service 3 -->
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Tagueamento & Analytics</h3>
+                        <p class="service-card__description">
+                            Implementação de Google Tag Manager, GA4, Meta Pixel e eventos personalizados 
+                            para rastreamento preciso de conversões.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Configuração GTM e GA4</li>
+                            <li>Implementação de pixels</li>
+                            <li>Eventos personalizados</li>
+                            <li>Auditoria de rastreamento</li>
+                        </ul>
+                    </article>
+                    
+                    <!-- Service 4 -->
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Dados & Insights</h3>
+                        <p class="service-card__description">
+                            Análise profunda de dados, dashboards personalizados e insights acionáveis 
+                            para tomada de decisão estratégica.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Dashboards personalizados</li>
+                            <li>Análise de funil de vendas</li>
+                            <li>Relatórios executivos</li>
+                            <li>Recomendações estratégicas</li>
+                        </ul>
+                    </article>
+                    
+                    <!-- Service 5 -->
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Desenvolvimento Web</h3>
+                        <p class="service-card__description">
+                            Criação de sites modernos, responsivos e otimizados para conversão, 
+                            focados em performance e experiência do usuário.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Landing pages de alta conversão</li>
+                            <li>Sites institucionais</li>
+                            <li>E-commerce</li>
+                            <li>Otimização SEO</li>
+                        </ul>
+                    </article>
+                    
+                    <!-- Service 6 -->
+                    <article class="service-card service-card--highlight">
+                        <div class="service-card__badge">Mais Popular</div>
+                        <div class="service-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Pacote Completo</h3>
+                        <p class="service-card__description">
+                            Solução 360° incluindo tráfego pago, tagueamento, análise de dados e 
+                            desenvolvimento web. Tudo que você precisa em um único lugar.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Todos os serviços inclusos</li>
+                            <li>Suporte prioritário</li>
+                            <li>Reuniões estratégicas mensais</li>
+                            <li>Desconto especial</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section" id="testimonials">
+            <div class="testimonials__container container">
+                <div class="section__header">
+                    <span class="section__subtitle">Depoimentos</span>
+                    <h2 class="section__title">O Que Nossos Clientes Dizem</h2>
+                    <p class="section__description">
+                        Resultados reais de empresas que confiaram na I7 Digital.
+                    </p>
+                </div>
+                
+                <div class="testimonials__slider">
+                    <div class="testimonials__track" id="testimonials-track">
+                        <!-- Testimonial 1 -->
+                        <article class="testimonial-card">
+                            <div class="testimonial-card__rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                            </div>
+                            <p class="testimonial-card__text">
+                                "A I7 Digital transformou completamente nossa estratégia de marketing digital. 
+                                Em 3 meses, aumentamos nossas vendas em 250% com um ROI incrível. 
+                                A equipe é extremamente profissional e sempre disponível."
+                            </p>
+                            <div class="testimonial-card__author">
+                                <div class="testimonial-card__avatar">MS</div>
+                                <div class="testimonial-card__info">
+                                    <h4 class="testimonial-card__name">Maria Silva</h4>
+                                    <p class="testimonial-card__role">CEO, Boutique Elegance</p>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <!-- Testimonial 2 -->
+                        <article class="testimonial-card">
+                            <div class="testimonial-card__rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                            </div>
+                            <p class="testimonial-card__text">
+                                "Excelente trabalho de tagueamento e análise de dados. Agora conseguimos 
+                                entender exatamente de onde vêm nossos clientes e otimizar nossos investimentos. 
+                                Recomendo fortemente!"
+                            </p>
+                            <div class="testimonial-card__author">
+                                <div class="testimonial-card__avatar">JS</div>
+                                <div class="testimonial-card__info">
+                                    <h4 class="testimonial-card__name">João Santos</h4>
+                                    <p class="testimonial-card__role">Diretor, Tech Solutions</p>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <!-- Testimonial 3 -->
+                        <article class="testimonial-card">
+                            <div class="testimonial-card__rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                            </div>
+                            <p class="testimonial-card__text">
+                                "O site que a I7 Digital desenvolveu para nós é simplesmente perfeito. 
+                                Rápido, bonito e otimizado para conversão. Nossos leads aumentaram 180% 
+                                no primeiro mês após o lançamento."
+                            </p>
+                            <div class="testimonial-card__author">
+                                <div class="testimonial-card__avatar">AC</div>
+                                <div class="testimonial-card__info">
+                                    <h4 class="testimonial-card__name">Ana Costa</h4>
+                                    <p class="testimonial-card__role">Fundadora, Fitness Pro</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="testimonials__controls">
+                        <button class="testimonials__btn testimonials__btn--prev" id="testimonials-prev" aria-label="Previous testimonial">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                        </button>
+                        <button class="testimonials__btn testimonials__btn--next" id="testimonials-next" aria-label="Next testimonial">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <div class="testimonials__dots" id="testimonials-dots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container">
+                <div class="section__header">
+                    <span class="section__subtitle">Entre em Contato</span>
+                    <h2 class="section__title">Vamos Conversar?</h2>
+                    <p class="section__description">
+                        Preencha o formulário abaixo e nossa equipe entrará em contato em até 24 horas.
+                    </p>
+                </div>
+                
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <div class="contact__card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact__card-content">
+                                <h3 class="contact__card-title">Endereço</h3>
+                                <p class="contact__card-text">São Paulo, SP - Brasil</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__card">
+                            <div class="contact__card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact__card-content">
+                                <h3 class="contact__card-title">Email</h3>
+                                <p class="contact__card-text">contato@i7digital.com.br</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__card">
+                            <div class="contact__card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="contact__card-content">
+                                <h3 class="contact__card-title">Telefone</h3>
+                                <p class="contact__card-text">+55 (11) 99999-9999</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact__form" id="contact-form">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Nome Completo</label>
+                            <input type="text" id="name" name="name" class="form__input" required>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email</label>
+                            <input type="email" id="email" name="email" class="form__input" required>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="phone" class="form__label">Telefone</label>
+                            <input type="tel" id="phone" name="phone" class="form__input" required>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="service" class="form__label">Serviço de Interesse</label>
+                            <select id="service" name="service" class="form__input" required>
+                                <option value="">Selecione um serviço</option>
+                                <option value="google-ads">Tráfego Pago Google</option>
+                                <option value="meta-ads">Tráfego Pago Meta</option>
+                                <option value="tagueamento">Tagueamento & Analytics</option>
+                                <option value="dados">Dados & Insights</option>
+                                <option value="web">Desenvolvimento Web</option>
+                                <option value="completo">Pacote Completo</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form__group form__group--full">
+                            <label for="message" class="form__label">Mensagem</label>
+                            <textarea id="message" name="message" class="form__input form__textarea" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full">
+                            <span class="btn__text">Enviar Mensagem</span>
+                            <span class="btn__loader"></span>
+                        </button>
+                        
+                        <div class="form__message" id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__column">
+                    <a href="#home" class="footer__logo">
+                        <span class="footer__logo-text">i7 Digital</span>
+                    </a>
+                    <p class="footer__description">
+                        Transformando dados em resultados reais para pequenas empresas.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__column">
+                    <h3 class="footer__title">Serviços</h3>
+                    <ul class="footer__list">
+                        <li><a href="#services" class="footer__link">Tráfego Pago Google</a></li>
+                        <li><a href="#services" class="footer__link">Tráfego Pago Meta</a></li>
+                        <li><a href="#services" class="footer__link">Tagueamento</a></li>
+                        <li><a href="#services" class="footer__link">Dados & Insights</a></li>
+                        <li><a href="#services" class="footer__link">Desenvolvimento Web</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__column">
+                    <h3 class="footer__title">Empresa</h3>
+                    <ul class="footer__list">
+                        <li><a href="#about" class="footer__link">Sobre Nós</a></li>
+                        <li><a href="#testimonials" class="footer__link">Depoimentos</a></li>
+                        <li><a href="#contact" class="footer__link">Contato</a></li>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__column">
+                    <h3 class="footer__title">Newsletter</h3>
+                    <p class="footer__newsletter-text">Receba dicas e insights sobre marketing digital.</p>
+                    <form class="footer__newsletter" id="newsletter-form">
+                        <input type="email" placeholder="Seu email" class="footer__newsletter-input" required>
+                        <button type="submit" class="footer__newsletter-btn" aria-label="Subscribe">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2026 I7 Digital. Todos os direitos reservados.
+                </p>
+                <div class="footer__links">
+                    <a href="#" class="footer__link">Política de Privacidade</a>
+                    <a href="#" class="footer__link">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>

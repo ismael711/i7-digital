@@ -1,0 +1,24 @@
+{
+  "name": "i7-digital-website",
+  "version": "1.0.0",
+  "description": "Site moderno e responsivo da I7 Digital - Gestão de Tráfego Pago",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "i7-digital",
+    "trafego-pago",
+    "google-ads",
+    "meta-ads",
+    "marketing-digital",
+    "website"
+  ],
+  "author": "I7 Digital",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

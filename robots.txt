@@ -1,0 +1,11 @@
+# robots.txt for I7 Digital
+
+User-agent: *
+Allow: /
+
+# Disallow backend and data directories
+Disallow: /backend/
+Disallow: /node_modules/
+
+# Sitemap
+Sitemap: https://www.i7digital.com.br/sitemap.xml
